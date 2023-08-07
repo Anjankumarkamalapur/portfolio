@@ -1,0 +1,362 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 0px 0px;
+    /* background-color: rgb(164, 166, 165); */
+    height: 50px;
+    align-items: center;
+
+}
+
+ul {
+    margin-top: 28px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+ul li a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: -3;
+    right: 100px;
+
+}
+
+ul li a:hover {
+    color: grey;
+}
+
+.logo h1 {
+    margin-top: -50px;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    position: absolute;
+    height: 39px;
+    top: 4px;
+    left: 156px;
+    /* left: 119px; */
+    /* size: 2px; */
+}
+
+.man {
+    align-items: center;
+
+
+}
+
+.pic {
+    height: 350px;
+    width: 436px;
+    margin-left: 966px;
+    margin-top: 76px;
+    border-radius: 157px;
+}
+
+/* .man:hover{
+ transform: scale(1.04);
+} */
+.pic:hover {
+    transform: scale(1.04);
+}
+
+.center {
+    height: 300px;
+}
+
+.center h1 {
+    margin-left: 347px;
+    margin-top: -400px;
+}
+
+.center h3 {
+    margin-left: 348px;
+    margin-top: 7px;
+}
+
+.center p {
+    margin-left: 351px;
+}
+
+.Resume button {
+    height: 100px;
+    width: 106px;
+    background-color: #BADA55;
+    border-radius: 50%;
+    margin-left: 378px;
+    margin-top: 34px;
+    /* border: 2.5px solid; */
+    border: 2.5px white;
+    transition: 2s;
+    animation: slide 2s ease infinite;
+
+}
+
+@keyframes slide {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+.Resume button:hover {
+    background-color: white;
+}
+
+.Research button {
+    height: 100px;
+    width: 106px;
+    background-color: #EEA302;
+    border-radius: 50%;
+    margin-left: 500px;
+    position: absolute;
+    margin-top: -99px;
+    /* border: 2.5px solid; */
+    border: 2.5px white;
+    transition: 2s;
+    animation: slide 2s ease infinite;
+
+}
+
+@keyframes slide {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+.Research button:hover {
+    background-color: white;
+}
+
+.OutReach button {
+    height: 100px;
+    width: 106px;
+    background-color: #80DADA;
+    border-radius: 50%;
+    margin-left: 624px;
+    position: absolute;
+    margin-top: -99px;
+    /* border: 2.5px solid; */
+    border: 2.5px white;
+    transition: 2s;
+    animation: slide 2s ease infinite;
+
+}
+
+@keyframes slide {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+.OutReach button:hover {
+    background-color: white;
+}
+
+.personal button {
+    height: 100px;
+    width: 106px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-left: 749px;
+    position: absolute;
+    margin-top: -102px;
+    /* border: 2.5px solid; */
+    border: 2.5px white;
+    transition: 1.5s;
+    animation: slide 2s ease infinite;
+
+}
+
+@keyframes slide {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+.personal button:hover {
+    background-color: white;
+}
+
+.skills h1 {
+    margin-top: 145px;
+    margin-left: 250px;
+    padding-top: 23px;
+}
+
+.skills h1:hover {
+    transform: scale(1.05);
+
+}
+
+.skills ol {
+    margin-left: 285px;
+
+}
+
+.skills {
+    height: 370px;
+}
+
+.Education {
+    height: 350px;
+}
+
+ol {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(204, 157, 100);
+}
+
+/* .pic{
+    height: 300px;
+    margin-top: 677px;
+    margin-bottom: 97px;
+}  */
+.Education h1 {
+    margin-left: 550px;
+}
+
+.Education h1:hover {
+    transform: scale(1.05);
+}
+
+.Education p {
+    font-size: 23px;
+    margin-left: 285px;
+}
+
+.work {
+    margin-top: -148px;
+}
+
+.work h1 {
+    margin-left: 550px;
+
+}
+
+.work h1:hover {
+    transform: scale(1.05);
+}
+
+.work p {
+    font-size: 23px;
+}
+
+.work h1 {
+    margin-top: 145px;
+    margin-left: 550px;
+}
+
+.work p {
+    margin-left: 285px;
+}
+
+.project {
+    margin-top: -148px;
+}
+
+.project h1 {
+    margin-left: 550px;
+}
+
+.project h1:hover {
+    transform: scale(1.05);
+}
+
+.project p {
+    font-size: 23px;
+    margin-left: 285px;
+}
+
+.project h1 {
+    margin-top: 145px;
+    margin-left: 550px;
+}
+
+.footer1 {
+    margin-left: 23px;
+    font-size: 22px;
+    /* margin-bottom: 156px; */
+    position: absolute;
+    padding-top: 175px;
+    /* padding-top: 63px; */
+    /* display: inline-table; */
+}
+
+.footer2 {
+    position: absolute;
+    font-size: 22px;
+    margin-left: 393px;
+    padding-top: 175px;
+}
+
+.footer3 {
+    font-size: 22px;
+    margin-left: 750px;
+    position: absolute;
+    padding-top: 175px;
+}
+
+.footer4 {
+    font-size: 22px;
+    margin-left: 1122px;
+    position: absolute;
+    padding-top: 175px;
+
+}
+
+.lowda {
+    background-color: #ffffff;
+}
+
+.lowdaa {
+    background-color: #ffffff;
+    width: 100%;
+    height: 400px;
+}
+
+.icons {
+    height: 35px;
+    width: 35px;
+    padding: 0px 25px 0px 25px;
+}
+
+.icons:hover {
+    transform: scale(1.80);
+}
+
+.iconarr {
+    display: flex;
+    justify-content: centre;
+    margin-left: 35%;
+    margin-right: 65%;
+}
